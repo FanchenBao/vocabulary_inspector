@@ -1,0 +1,19 @@
+{
+  "name": "sentiment/negative.txt",
+  "bucket": "default-bucket",
+  "contentType": "text/plain",
+  "metageneration": 1,
+  "generation": 1636402548309,
+  "storageClass": "STANDARD",
+  "etag": "someETag",
+  "contentDisposition": "inline",
+  "contentEncoding": "identity",
+  "downloadTokens": [
+    "67f0d651-a9f2-41f8-8b9c-8efe04fbd408"
+  ],
+  "timeCreated": "2021-11-08T20:15:48.308Z",
+  "updated": "2021-11-08T20:15:48.308Z",
+  "size": 830,
+  "md5Hash": "JUcKEP64Qi1LLM7JcgIOjg==",
+  "crc32c": "2387336522"
+}

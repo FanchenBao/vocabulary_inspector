@@ -1,0 +1,19 @@
+{
+  "name": "sentiment/neutral.txt",
+  "bucket": "default-bucket",
+  "contentType": "text/plain",
+  "metageneration": 1,
+  "generation": 1636402548316,
+  "storageClass": "STANDARD",
+  "etag": "someETag",
+  "contentDisposition": "inline",
+  "contentEncoding": "identity",
+  "downloadTokens": [
+    "4339558c-b51c-4c08-8d98-eecc95c7523b"
+  ],
+  "timeCreated": "2021-11-08T20:15:48.315Z",
+  "updated": "2021-11-08T20:15:48.315Z",
+  "size": 300,
+  "md5Hash": "4RR00Taz1hAOBW1/3fyecg==",
+  "crc32c": "2997804892"
+}

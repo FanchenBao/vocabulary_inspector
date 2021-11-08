@@ -1,0 +1,17 @@
+{
+  "name": "sentiment/",
+  "bucket": "default-bucket",
+  "contentType": "text/plain",
+  "metageneration": 1,
+  "generation": 1636402515952,
+  "storageClass": "STANDARD",
+  "etag": "someETag",
+  "contentDisposition": "inline",
+  "contentEncoding": "identity",
+  "downloadTokens": [],
+  "timeCreated": "2021-11-08T20:15:15.951Z",
+  "updated": "2021-11-08T20:15:15.951Z",
+  "size": 0,
+  "md5Hash": "1B2M2Y8AsgTpgAmY7PhCfg==",
+  "crc32c": "0"
+}

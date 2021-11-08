@@ -1,0 +1,19 @@
+{
+  "name": "classify/sports.txt",
+  "bucket": "default-bucket",
+  "contentType": "text/plain",
+  "metageneration": 1,
+  "generation": 1636405977313,
+  "storageClass": "STANDARD",
+  "etag": "someETag",
+  "contentDisposition": "inline",
+  "contentEncoding": "identity",
+  "downloadTokens": [
+    "6174e718-bde1-4cdb-8d3b-19888f606f8d"
+  ],
+  "timeCreated": "2021-11-08T21:12:57.312Z",
+  "updated": "2021-11-08T21:12:57.312Z",
+  "size": 506,
+  "md5Hash": "xBZDpxSnQ8SEt0Dwa/ZTBg==",
+  "crc32c": "1476099050"
+}

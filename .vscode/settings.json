@@ -1,4 +1,7 @@
 {
     "editor.tabSize": 2,
-    "eslint.workingDirectories": ["./functions"]
+    "eslint.workingDirectories": [
+      "./functions"
+    ],
+    "editor.wordWrap": "on"
 }

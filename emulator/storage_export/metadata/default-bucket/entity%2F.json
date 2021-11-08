@@ -1,0 +1,17 @@
+{
+  "name": "entity/",
+  "bucket": "default-bucket",
+  "contentType": "text/plain",
+  "metageneration": 1,
+  "generation": 1636402519606,
+  "storageClass": "STANDARD",
+  "etag": "someETag",
+  "contentDisposition": "inline",
+  "contentEncoding": "identity",
+  "downloadTokens": [],
+  "timeCreated": "2021-11-08T20:15:19.605Z",
+  "updated": "2021-11-08T20:15:19.605Z",
+  "size": 0,
+  "md5Hash": "1B2M2Y8AsgTpgAmY7PhCfg==",
+  "crc32c": "0"
+}

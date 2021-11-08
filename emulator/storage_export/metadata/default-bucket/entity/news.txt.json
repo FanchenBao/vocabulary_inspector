@@ -1,0 +1,19 @@
+{
+  "name": "entity/news.txt",
+  "bucket": "default-bucket",
+  "contentType": "text/plain",
+  "metageneration": 1,
+  "generation": 1636404831497,
+  "storageClass": "STANDARD",
+  "etag": "someETag",
+  "contentDisposition": "inline",
+  "contentEncoding": "identity",
+  "downloadTokens": [
+    "f0c9cb2c-c313-4fe4-9e35-40e52e169ac6"
+  ],
+  "timeCreated": "2021-11-08T20:53:51.496Z",
+  "updated": "2021-11-08T20:53:51.496Z",
+  "size": 1253,
+  "md5Hash": "zP4nZUAu6unFDUPWj19K8g==",
+  "crc32c": "1549699898"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "sentiment/positive.txt",
+  "bucket": "default-bucket",
+  "contentType": "text/plain",
+  "metageneration": 1,
+  "generation": 1636402548322,
+  "storageClass": "STANDARD",
+  "etag": "someETag",
+  "contentDisposition": "inline",
+  "contentEncoding": "identity",
+  "downloadTokens": [
+    "151c315b-c59c-44d6-ad65-39ed08a2f8f7"
+  ],
+  "timeCreated": "2021-11-08T20:15:48.321Z",
+  "updated": "2021-11-08T20:15:48.321Z",
+  "size": 1731,
+  "md5Hash": "mj84yaMrJt5EElrHKL+Uow==",
+  "crc32c": "692007511"
+}

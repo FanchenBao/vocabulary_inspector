@@ -1,0 +1,19 @@
+{
+  "name": "classify/science.txt",
+  "bucket": "default-bucket",
+  "contentType": "text/plain",
+  "metageneration": 1,
+  "generation": 1636405977309,
+  "storageClass": "STANDARD",
+  "etag": "someETag",
+  "contentDisposition": "inline",
+  "contentEncoding": "identity",
+  "downloadTokens": [
+    "552e4e35-fd11-48b9-a94c-32f0a18435e6"
+  ],
+  "timeCreated": "2021-11-08T21:12:57.308Z",
+  "updated": "2021-11-08T21:12:57.308Z",
+  "size": 898,
+  "md5Hash": "+KKkeTna9p4tAY53xkeqcw==",
+  "crc32c": "3295668038"
+}

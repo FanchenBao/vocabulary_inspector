@@ -1,0 +1,19 @@
+{
+  "name": "classify/tech.txt",
+  "bucket": "default-bucket",
+  "contentType": "text/plain",
+  "metageneration": 1,
+  "generation": 1636405977317,
+  "storageClass": "STANDARD",
+  "etag": "someETag",
+  "contentDisposition": "inline",
+  "contentEncoding": "identity",
+  "downloadTokens": [
+    "7b767040-3a07-4049-a3cd-1a4b226b7c36"
+  ],
+  "timeCreated": "2021-11-08T21:12:57.316Z",
+  "updated": "2021-11-08T21:12:57.317Z",
+  "size": 1086,
+  "md5Hash": "m8fVrWVQb5ZEBiHZ/ha3aw==",
+  "crc32c": "3928121254"
+}

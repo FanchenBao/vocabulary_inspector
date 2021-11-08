@@ -1,0 +1,19 @@
+{
+  "name": "sentiment/mixed.txt",
+  "bucket": "default-bucket",
+  "contentType": "text/plain",
+  "metageneration": 1,
+  "generation": 1636402548304,
+  "storageClass": "STANDARD",
+  "etag": "someETag",
+  "contentDisposition": "inline",
+  "contentEncoding": "identity",
+  "downloadTokens": [
+    "fd70083a-7800-4035-a593-c342d282bad3"
+  ],
+  "timeCreated": "2021-11-08T20:15:48.303Z",
+  "updated": "2021-11-08T20:15:48.303Z",
+  "size": 496,
+  "md5Hash": "qgV3p/UldSboCzMDpE49QA==",
+  "crc32c": "2335117661"
+}
