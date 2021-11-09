@@ -46,7 +46,6 @@ const readStorageFile = async (filename: string): Promise<string> => {
 export const analyzeSentimentString = functions.https.onRequest(
   async (request, resp) => {
     const text = request.body.text;
-
     const document: IDocument = {
       content: text,
       type: "PLAIN_TEXT",
@@ -105,7 +104,6 @@ export const analyzeSentimentDocument = functions.https.onRequest(
     }
   }
 );
-
 
 export const analyzeEntityDocument = functions.https.onRequest(
   async (request, resp) => {

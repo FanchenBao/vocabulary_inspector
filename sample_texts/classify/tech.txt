@@ -1,7 +1,7 @@
-Niantic is releasing a platform for building what it calls “real-world metaverse” apps. Called Lightship, the platform is “built around the parts necessary to stitch together the digital and the real world,” CEO John Hanke tells me.
+Niantic is releasing a platform for building what it calls "real-world metaverse" apps. Called Lightship, the platform is "built around the parts necessary to stitch together the digital and the real world," CEO John Hanke tells me.
 
 According to Hanke, Lightship will let mobile apps identify whether a user’s camera is pointed at the sky or water, map the surfaces and depth of an environment in real time, or place a virtual object behind a physical one.
 
-Niantic is best known for creating one of the most successful mobile games ever, Pokémon Go. With Lightship, Hanke says the company is “opening the vault of tech that we’ve been using to build our products” to help others build “planet-scale AR apps.”
+Niantic is best known for creating one of the most successful mobile games ever, Pokémon Go. With Lightship, Hanke says the company is "opening the vault of tech that we’ve been using to build our products" to help others build "planet-scale AR apps."
 
 Lightship has been in development for quite some time. But starting Monday, it’s open for any developer to access. Most of the software toolkit is free, though Niantic will charge for a feature that can let multiple devices access shared AR experiences simultaneously. The company is also committing $20 million to fund new companies building AR apps.
