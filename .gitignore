@@ -66,6 +66,6 @@ node_modules/
 .env
 
 # Service account credentials
-functions/vocabulary-inspector-firebase-adminsdk.json
+functions/*-firebase-adminsdk.json
 
 .DS_Store
