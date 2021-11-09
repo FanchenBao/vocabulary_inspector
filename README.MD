@@ -8,7 +8,7 @@ Follow the steps below to set up a local Firebase emulator to test the GCP NLP A
 
 1. Download this repo. All subsequent steps assume that we are under the root of the project folder.
     ```bash
-    git clone ??
+    git clone https://github.com/FanchenBao/vocabulary_inspector.git
     ```
 2. Create a new Firebase project via Firebase console. **Suppose the newly created project is called `gcp-nlp-demo`**. Under root, run `firebase login` to login the account that is used to create the project.
 3. Within Firebase console, go to _Project settings => Service accounts_, and click _Generate new private key_. Save the credential JSON file and move it under `./functions/gcp-nlp-demo-firebase-adminsdk.json`. **NOTE: this file contains private key. It must NEVER be shared or committed in git**
@@ -24,11 +24,23 @@ Follow the steps below to set up a local Firebase emulator to test the GCP NLP A
     ```bash
     npm install
     ```
-7. Under root, set up Firebase emulator by running `firebase init emulators`. Choose to emulate both Firebase function and storage.
+7. Under root, set up Firebase emulator. Choose to emulate both Firebase function and storage.
+    ```bash
+    firebase init emulators
+    ```
 8. Under `./functions`, build the JavaScript files from TypeScript. Run `npm run build` for one time build. Run `npm run build:watch` for active building. The second approach is recommended if change is frequently made to the source code, which is `./functions/src/index.ts` by the way.
-9. Under `./functions`, run `export $(grep -v '^#' .env | xargs)` to export the `.env` file content as environment variables.
-10. Under root, run `firebase use gcp-nlp-demo`.
-11. Under root, run `firebase emulators:start --import ./emulator` to start the emulator for both Firebase function and storage. The storage automatically loads the files from `./emulator`. If everything goes as planned, we shall see five functions deployed to `http://localhost:5001/gcp-nlp-demo`
+9. Under `./functions`, export the `.env` file content as environment variables.
+    ```bash
+    export $(grep -v '^#' .env | xargs)
+    ```
+10. Under root, choose the Firebase project
+    ```bash
+    firebase use gcp-nlp-demo
+    ```
+11. Under root, start the emulator for both Firebase function and storage. The storage automatically loads the files from `./emulator`. If everything goes as planned, we shall see five functions deployed to `http://localhost:5001/gcp-nlp-demo`
+    ```bash
+    firebase emulators:start --import ./emulator
+    ```
 12. Check the emulator UI for storage to make sure the sample texts have been loaded. There are four sample texts under `sentiment`, three under `classify`, and one under `entity`.
 
 # Usage
