@@ -7,15 +7,20 @@ import * as admin from "firebase-admin";
 type IDocument = protos.google.cloud.language.v1.IDocument;
 
 const client = new language.LanguageServiceClient();
-admin.initializeApp({
-  projectId: "vocabulary-inspector",
-});
 // Ensure that when local emulator is used, where process.env.ENV is set,
 // we use default-bucket.
-const bucketName = process.env.ENV === undefined ? (
-  process.env.FIREBASE_CONFIG ?
-    JSON.parse(process.env.FIREBASE_CONFIG).storageBucket :
-    "") : "default-bucket";
+const bucketName =
+  process.env.ENV === undefined ?
+    process.env.FIREBASE_CONFIG ?
+      JSON.parse(process.env.FIREBASE_CONFIG).storageBucket :
+      "" :
+    "default-bucket";
+
+admin.initializeApp({
+  projectId: process.env.FIREBASE_CONFIG ?
+    JSON.parse(process.env.FIREBASE_CONFIG).projectId :
+    "",
+});
 
 /**
 Read text data from the the given filename that is stored in a bucket
